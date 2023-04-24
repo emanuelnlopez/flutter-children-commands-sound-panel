@@ -23,7 +23,7 @@ class _FatherAnimationState extends State<FatherAnimation> {
       const Duration(milliseconds: 50),
       (timer) {
         setState(() => _currentIndex =
-            (_currentIndex + 1) % AppImageAssets.manuAnimationImages.length);
+            (_currentIndex + 1) % AppImageAssets.fatherAnimationImages.length);
       },
     );
   }
@@ -36,7 +36,7 @@ class _FatherAnimationState extends State<FatherAnimation> {
 
   @override
   Widget build(BuildContext context) => Image.asset(
-        AppImageAssets.manuAnimationImages[_currentIndex],
+        AppImageAssets.fatherAnimationImages[_currentIndex],
         key: UniqueKey(),
       );
 }

@@ -1,7 +1,7 @@
 abstract class AppImageAssets {
-  static const manu1 = 'assets/images/manu1.png';
-  static const manu2 = 'assets/images/manu2.png';
-  static const manu3 = 'assets/images/manu3.png';
+  static const father1 = 'assets/images/father1.png';
+  static const father2 = 'assets/images/father2.png';
+  static const father3 = 'assets/images/father3.png';
 
-  static const manuAnimationImages = [manu1, manu2, manu3, manu2];
+  static const fatherAnimationImages = [father1, father2, father3, father2];
 }
